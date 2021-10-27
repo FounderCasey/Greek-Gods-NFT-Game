@@ -1,0 +1,27 @@
+.select-character-container {
+  color: rgb(10, 4, 41);
+  max-width: 1198px;
+  margin: auto;
+}
+
+.character-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.character-item {
+  width: 270px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.character-item:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 100%;
+}
